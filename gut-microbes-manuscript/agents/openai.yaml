@@ -1,0 +1,14 @@
+interface:
+  display_name: Gut Microbes Manuscript
+  short_description: Draft and audit Gut Microbes research manuscripts
+  default_prompt: Use $gut-microbes-manuscript to turn my study outline, results,
+    figures, and references into an evidence-grounded Gut Microbes manuscript in Word.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
